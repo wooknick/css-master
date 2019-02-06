@@ -7,7 +7,7 @@
     "author": "",
     "license": "ISC",
     "scripts": {
-        "start": "parcel index.html"
+        "start": "parcel build practice/1/index.html --out-dir dist/1 --out-file 1.html"
     },
     "dependencies": {
         "postcss-preset-env": "^6.5.0"
@@ -21,6 +21,7 @@
         }
     },
     "devDependencies": {
+        "cssnano": "^4.1.8",
         "postcss-color-mod-function": "^3.0.3"
     }
 }

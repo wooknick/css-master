@@ -7,7 +7,7 @@
     "author": "",
     "license": "ISC",
     "scripts": {
-        "start": "parcel build practice/2/index.html --out-dir dist/2 --out-file 2.html"
+        "start": "parcel practice/3/index.html --out-dir dist/3 --out-file 3.html"
     },
     "dependencies": {
         "postcss-preset-env": "^6.5.0"

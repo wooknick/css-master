@@ -1,0 +1,201 @@
+:root {
+    --color-item1: #d0edf4;
+    --color-item2: #b8b8b8;
+    --color-item3: #e2f0d6;
+    --color-item4: #cdcdcd;
+    --color-item5: #ebebeb;
+    --color-item6: #fcf8b9;
+    --color-item7: #e6e6e6;
+    --color-item8: #fdc3c2;
+    --color-item9: #eaeaea;
+    --color-item10: #f6f6f6;
+    --color-item11: #f2f2f2;
+    --color-item12: #d1eff6;
+    --color-item13: #e2f0d6;
+    --color-item14: #e9e9e9;
+    --color-item15: #fff7bc;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.header .header__column {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .header__column:first-child {
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.header__nav span {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    display: block;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.header__nav li {
+    margin: 0px 0px 10px 2px;
+}
+
+.fiveGrid {
+    display: grid;
+    grid-template-columns: 2fr repeat(4, 1fr);
+}
+
+.threeGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    grid-gap: 10px;
+}
+
+.grid .grid__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 30px;
+}
+
+.grid .grid__item:first-child {
+    grid-row: 1 / 3;
+    background-color: #d0edf4;
+    background-color: var(--color-item1);
+}
+
+.grid .grid__item:nth-child(2) {
+    grid-row: 1 / 3;
+    grid-column: 2 / 4;
+    background-color: #b8b8b8;
+    background-color: var(--color-item2);
+    background-image: url(https://static.standard.co.uk/s3fs-public/thumbnails/image/2018/10/15/18/slaughtered-lamb.jpg?width=1000&height=614&fit=bounds&format=pjpg&auto=webp&quality=70&crop=16:9,offset-y0.5);
+}
+
+.grid .grid__item:nth-child(3) {
+    background-color: #e2f0d6;
+    background-color: var(--color-item3);
+}
+
+.grid .grid__item:nth-child(4) {
+    grid-row: span 2;
+    background-color: #cdcdcd;
+    background-color: var(--color-item4);
+    background-image: url(https://true-tech.net/wp-content/uploads/2017/07/Screen-Shot-2017-07-31-at-6.43.06-AM.png);
+}
+
+.grid .grid__item:nth-child(5) {
+    grid-row: 4 / 5;
+    background-color: #ebebeb;
+    background-color: var(--color-item5);
+}
+
+.grid .grid__item:nth-child(6) {
+    background-color: #fcf8b9;
+    background-color: var(--color-item6);
+}
+
+.grid .grid__item:nth-child(7) {
+    background-color: #e6e6e6;
+    background-color: var(--color-item7);
+    background-image: url(https://png.pngtree.com/element_origin_min_pic/16/07/23/175793349a0685d.jpg)
+}
+
+.grid .grid__item:nth-child(8) {
+    grid-area: span 2 / span 2;
+    background-color: #fdc3c2;
+    background-color: var(--color-item8);
+}
+
+.grid .grid__item:nth-child(9) {
+    grid-row: span 2;
+    background-size: 200px 200px;
+    background-color: #eaeaea;
+    background-color: var(--color-item9);
+    background-image: url(http://cdn.onlinewebfonts.com/svg/img_393846.png);
+}
+
+.grid .grid__item:nth-child(10) {
+    grid-area: span 2 / span 2;
+    background-color: #f6f6f6;
+    background-color: var(--color-item10);
+    background-image: url(http://guitarlessonsforbeginners.com/images/guitar-lessons/05-the-guitar-string-names.png)
+}
+
+.grid .grid__item:nth-child(11) {
+    background-color: #f2f2f2;
+    background-color: var(--color-item11);
+    background-image: url(https://budapestrivercruise.com/wp-content/uploads/2013/02/Walking-Cruise-at-Night-Budapest-with-River-Cruise-Aapo-Haapanen.png)
+}
+
+.grid .grid__item:nth-child(12) {
+    background-color: #d1eff6;
+    background-color: var(--color-item12);
+    background-image: url(http://www.pngall.com/wp-content/uploads/1/Smile-PNG-File.png)
+}
+
+.grid .grid__item:nth-child(13) {
+    grid-area: span 2 / span 2;
+    background-color: #e2f0d6;
+    background-color: var(--color-item13);
+}
+
+.grid .grid__item:nth-child(14) {
+    background-color: #e9e9e9;
+    background-color: var(--color-item14);
+    background-image: url(https://pngimage.net/wp-content/uploads/2018/06/people-concert-png-3.png);
+}
+
+.grid .grid__item:nth-child(15) {
+    display: flex;
+    background-color: #fff7bc;
+    background-color: var(--color-item15)
+}
+
+.grid .grid__item:nth-child(15) .item__contents {
+        text-align: center;
+    }
+
+.grid__item .item__header {
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    display: block;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.grid__item .item__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.grid__item .item__contents {
+    height: 250px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+}
+
+.item__footer {
+    flex-direction: column-reverse;
+    text-decoration: underline;
+    font: bold;
+}

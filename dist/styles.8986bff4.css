@@ -1,0 +1,34 @@
+/* li:matches(:nth-child(even), .target) {
+    background-color: blue;
+}
+
+li:not(.target) {
+    background-color: blue;
+}
+
+:root {
+    --awesomeColor: #2980b9;
+}
+
+li:first-child a {
+    color: var(--awesomeColor);
+}
+
+@custom-selector :--headers h1, h2, h3, h4, h5, h6;
+
+:--headers {
+    color: #a0268c;
+}
+
+@custom-media --ipad-size (450px <= width <= 850px);
+
+@media (--ipad-size) {
+    body {
+        background-color: red;
+    }
+} */
+
+h1 {
+    color: grey(65);
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+}

@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Kanit:800');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700');
 html {
-    background-color: gray(85);
+    background-color: rgb(212,212,212);
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -35,11 +35,12 @@ h4 {
 
 .header {
     margin-top: 35px;
+    padding: 15px;
     padding: var(--Padding);
 }
 
 .navigation {
-    border-bottom: gray(95) solid 1px;
+    border-bottom: rgb(241,241,241) solid 1px;
     padding-bottom: 15px;
 }
 
@@ -100,6 +101,7 @@ ul {
 
 .featured {
     margin-top: 15px;
+    padding: 15px;
     padding: var(--Padding);
     padding-right: 0;
 }
@@ -125,6 +127,7 @@ ul {
     height: 150px;
     width: 190px;
     border-radius: 5%;
+    padding: 15px;
     padding: var(--Padding);
     color: white;
     background-size: cover;
@@ -132,11 +135,11 @@ ul {
 }
 
 .featured__wrapper .featured-meal:nth-child(odd) {
-    background-image: url(pasta.jpg);
+    background-image: url(pasta.b1134776.jpg);
 }
 
 .featured__wrapper .featured-meal:nth-child(even) {
-    background-image: url(pizza.jpg);
+    background-image: url(pizza.91cb0cfa.jpg);
 }
 
 .featured-meal .featured-meal__button {
@@ -160,19 +163,21 @@ button {
 
 .recipe__list .recipe {
     display: flex;
-    border-top: gray(90) 1px solid;
+    border-top: rgb(226,226,226) 1px solid;
     align-items: center;
     justify-content: space-between;
+    padding-left: 15px;
     padding-left: var(--Padding);
+    padding-right: 15px;
     padding-right: var(--Padding);
 }
 
 .recipe__list .recipe:last-child {
-    border-bottom: gray(90) 1px solid;
+    border-bottom: rgb(226,226,226) 1px solid;
 }
 
 .recipe__list .recipe:nth-child(even) {
-    background-color: gray(99);
+    background-color: rgb(252,252,252);
 }
 
 .recipe .recipe__name {
@@ -232,10 +237,11 @@ button {
 }
 
 .footer {
-    border-top: gray(90) 1px solid;
-    border-bottom: gray(90) 1px solid;
-    background-color: gray(98);
+    border-top: rgb(226,226,226) 1px solid;
+    border-bottom: rgb(226,226,226) 1px solid;
+    background-color: rgb(249,249,249);
     display: grid;
+    padding: 15px;
     padding: var(--Padding);
 }
 
